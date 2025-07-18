@@ -4,7 +4,7 @@ const WS_READY_STATE_OPEN = 1;
 let userID = "86c50e3a-5b87-49dd-bd20-03c7f2735e40";
 const cn_hostnames = [""];
 // 添加需要直接使用NAT64的域名列表，支持从环境变量扩展
-let proxydomains = ["twitch.tv","ttvnw.net"];
+let proxydomains = ["twitch.tv","ttvnw.net","grok.com","x.com","chatgpt.com","gemini.google.com"];
 
 // 检查域名是否匹配，包括子域名
 function isDomainMatch(hostname, pattern) {
