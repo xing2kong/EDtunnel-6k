@@ -24,7 +24,7 @@ let go2Socks5s = [
     '*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = ["https://raw.githubusercontent.com/xing2kong/cfipcaiji/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/suancaicc/cf-ip/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/IPDB-Modified-hao6/refs/heads/main/bestproxy.txt", "https://raw.githubusercontent.com/xing2kong/IPDB-Modified-hao6/refs/heads/main/bestcf.txt", "https://raw.githubusercontent.com/xing2kong/auto-ip-update_hao35/refs/heads/main/%E4%BC%98%E9%80%89ip.txt"];
+let addressesapi = ["https://raw.githubusercontent.com/xing2kong/cfipcaiji/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/suancaicc/cf-ip/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/subapi-hao27/refs/heads/main/addressesapi.txt", "https://raw.githubusercontent.com/xing2kong/iptest-hao26/refs/heads/main/proxyip.txt", "https://raw.githubusercontent.com/xing2kong/cfipv4db/refs/heads/main/cfip.txt", "https://raw.githubusercontent.com/xing2kong/IPDB-Modified-hao6/refs/heads/main/bestproxy.txt", "https://raw.githubusercontent.com/xing2kong/IPDB-Modified-hao6/refs/heads/main/bestcf.txt", "https://raw.githubusercontent.com/xing2kong/auto-ip-update_hao35/refs/heads/main/%E4%BC%98%E9%80%89ip.txt"];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
@@ -183,7 +183,7 @@ export default {
                     let pagesSum = UD;
                     let workersSum = UD;
                     let total = 24 * 1099511627776;
-                    if (env.CF_EMAIL && env.CF_APIKEY) {
+                    if ((env.CF_EMAIL && env.CF_APIKEY) || (env.CF_ID && env.CF_APITOKEN)) {
                         const usage = await getUsage(env.CF_ID, env.CF_EMAIL, env.CF_APIKEY, env.CF_APITOKEN, env.CF_ALL);
                         pagesSum = usage[1];
                         workersSum = usage[2];
