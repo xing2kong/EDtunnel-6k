@@ -24,7 +24,7 @@ let go2Socks5s = [
     '*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = ["https://raw.githubusercontent.com/xing2kong/cfipcaiji/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/suancaicc/cf-ip/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/subapi-hao27/refs/heads/main/addressesapi.txt", "https://raw.githubusercontent.com/xing2kong/iptest-hao26/refs/heads/main/proxyip.txt", "https://raw.githubusercontent.com/xing2kong/cfipv4db/refs/heads/main/cfip.txt", "https://raw.githubusercontent.com/xing2kong/IPDB-Modified-hao6/refs/heads/main/bestproxy.txt", "https://raw.githubusercontent.com/xing2kong/IPDB-Modified-hao6/refs/heads/main/bestcf.txt", "https://raw.githubusercontent.com/xing2kong/auto-ip-update_hao35/refs/heads/main/%E4%BC%98%E9%80%89ip.txt"];
+let addressesapi = ["https://raw.githubusercontent.com/suancaicc/cf-ip/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/cfipcaiji_zijianip33/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/cfipcaiji_zijianip33/refs/heads/main/ipv6.txt", "https://raw.githubusercontent.com/xing2kong/cfip_best-zidongip3/refs/heads/main/ipv4.txt", "https://raw.githubusercontent.com/xing2kong/cip_refresh-zidongip1/refs/heads/master/ip.txt"];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
