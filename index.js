@@ -24,7 +24,7 @@ let go2Socks5s = [
     '*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = ["https://raw.githubusercontent.com/suancaicc/cf-ip/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/cfipcaiji_zijianip33/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/cfipcaiji_zijianip33/refs/heads/main/ipv6.txt", "https://raw.githubusercontent.com/xing2kong/zijianipkytorSegy250808/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/cutepan/My-catch-cfip/refs/heads/main/ip.txt"];
+let addressesapi = ["https://raw.githubusercontent.com/suancaicc/cf-ip/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/cfipcaiji_zijianip33/refs/heads/main/ip.txt", "https://raw.githubusercontent.com/xing2kong/cfipcaiji_zijianip33/refs/heads/main/ipv6.txt", "https://raw.githubusercontent.com/xing2kong/zijianipkytorSegy250808/refs/heads/main/ip.txt"];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
